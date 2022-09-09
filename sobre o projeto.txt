@@ -1,11 +1,13 @@
 Adega VT
 
-- O projeto ainda n„o est· pronto, estou tendo problemas com o upload de imagens dos produtos, quando adiciono o produto a imagem do mesmo n„o est· indo do jeito que eu quero, mas estou trabalhando para resolver o problema.
+- O projeto ainda n√£o est√° pronto, mas estou trabalahndo para deixar muito melhor.
 
-- Em quest„o de estilo estou aperfeiÁoando aos poucos, dando mais foco para o backand, para resolver os problemas existentes.
+- Em quest√£o de estilo estou aperfei√ßoando aos poucos, dando mais foco para o backand, para resolver os problemas existentes.
 
-- mesmo tendo o problema com a imagem, o upload de dados do produto est· tudo certo, pode verificar em produtos, assim que adicionar um novo produto, so n„o est· muito responsivo ainda.
+- Os produtos que est√£o aparecendo na Home, pagina inicial, √© apenas uma ideia de como eu quero que fique, quando for adicionada, se relamente que ver os produtos que adicionou, va para produtos.
 
-- Os produtos que est„o aparecendo na Home, pagina inicial, È apenas uma ideia de como eu quero que fique, quando for adicionada.
+-O unico tipo de foto que aceita e jpg, certifique-se disso, para n√£o ter erro.
+
+- Se baixar o c√≥digo, descomprimir o node_modules, para funcionar.
 
 - Caso for testar o projeto, lembre-se de iniciar um servidor local.
