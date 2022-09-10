@@ -220,8 +220,7 @@
 
 
 }
-
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1200px){
     .container{
         text-align: center;
         display: flex;
@@ -229,14 +228,12 @@
         margin: auto;
         width: 800px;
         height: 1000px;
-        height: 80%;
-        width:80%; 
         background-color: rgba(0, 0, 0, 0.1);
         justify-content: space-around;
         border-radius: 20px;
-         margin-left: 100px; 
+         margin-left: 9%; 
         margin-top: 30px;
-        left: 500px;
+        left: 20%;
 
 }
 }
