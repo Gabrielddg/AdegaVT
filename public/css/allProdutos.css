@@ -130,3 +130,21 @@ h1{
 .valor{
     margin-left: 10px;
 }
+
+@media screen and (min-width: 1000px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+         margin-left: 9%; 
+        margin-top: 30px;
+        left: 20%;
+
+}
+}
