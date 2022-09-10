@@ -1,0 +1,736 @@
+@media screen and (max-width: 600px) {
+    
+    .pd2{
+        width: 300px;
+        height: 350px;
+    }
+    /* .footer2{
+        display: flex;
+    } */
+.container{
+     
+       
+        position:absolute;
+         right: 30%;
+        height: 2000px;
+        width:380px;
+        background-color: rgba(0, 0, 0, 0.1);
+       flex-direction: column;
+        
+        
+      
+}
+.base{
+    
+    cursor: pointer;
+    border-radius: 10px;
+    /* display:flex; */
+    flex-direction:column;
+    position: absolute;
+    border-radius: 20px;
+    left: 22px;
+    top: -40px;
+    width: 330px;
+    height:500px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+.base2{
+    border-radius: 20px;
+    flex-direction:column;
+    position: absolute;  
+    left: 23px;
+    top: 500px;
+    width: 330px;
+    height:500px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+.img1{
+    /* display: none; */
+   position: absolute;
+    width:330px;
+    height:500px;
+    border-radius: 20px;
+    
+  
+    
+}
+.img2{
+    /* display: none; */
+    position: absolute;
+    left: 1px;
+    width:330px;
+    height:500px;
+    border-radius: 20px;
+}
+
+
+.img1:hover{
+    width:330px;
+    height:500px;
+
+/* aqui no hover eu estou desativando o mode de crecer a imagem,
+ pois no celuar não vejo sentido deixa\r, e como não sei desativar 
+ utilizei essa ganbiarra para manter o mesmo tamanho */
+}
+.container2{
+  position: absolute;
+  display: flexbox;
+  flex-direction:column;
+  top: 35px;
+  margin-top: 20px;
+
+}
+    
+.container3{
+    position: relative;
+    display: flexbox;
+    flex-direction:column
+  
+  }
+   
+  .container4{
+    position: relative;
+    display: block;
+    flex-direction:column
+  
+  }
+  .container1{
+    position: relative;
+    display: flexbox;
+    flex-direction:column
+  
+  }
+  /* aqui começo a mexer na segunda tela, 
+  onde aparece as informações, e pode adicionar ao carrinho */
+ .con-exclusivo{
+    /* display: none; */
+    left: 20px;
+    top: 10px;
+    width: 330px;
+    height: 600px;
+}
+
+ .info{
+    left: 50px;
+    top: 340px;
+ }  
+ #back{
+    left: 290px;
+    font-size: xx-large;
+ }
+ .ft-teste{
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 300px;
+ }
+
+  /* segundo produto */
+  .footer2{
+    left: 24px;
+    top: 550px;
+    width: 330px;
+    height: 600px;
+    
+  }
+.produto2{
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 300px;
+    height: 400px;
+}
+.informacoes2{
+    top: 450px;
+    left: 85px;
+}
+.btn2{
+    top: 100px;
+    left: -35px;
+    width: 200px;
+    height: 40px;
+    
+}
+
+/* terceiro produto */
+#teste3{
+    position: absolute;
+    top: 1045px;
+}
+.img3{
+    position: absolute;
+    border-radius: 20px;
+ 
+    width: 330px;
+    height: 500px;
+
+}
+
+.footer3{
+    top: 1110px;
+    left: 20px;
+    height:  600px;
+    width: 335px;
+}
+.produto3{
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 300px;
+    height: 350px;
+}
+.informacoes3{
+    top: 380px;
+    left: 80px;
+}
+.btn3{
+    top: 170px;
+    left: -20px;
+    width: 200px;
+    height: 40px;
+}
+#inp3{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+#btn-mais{
+    width: 40px;
+    height:30px;
+    top: 145px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    
+    font-size: x-large;
+    border-radius: 10px;
+}
+#btn-menos{
+    width: 40px;
+    height: 30px;
+    top: 145px;
+    position: absolute;
+    left: -7px;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
+    border-radius: 10px;
+
+}
+
+}
+
+
+
+@media screen and (min-width: 1100px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        top: 25%;
+        left: 10%;
+
+}
+}
+@media screen and (min-width: 1000px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        top: 25%;
+        left: 13%;
+
+}
+}
+@media screen and (min-width: 1230px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+       
+        left: 10%;
+
+}
+}
+@media screen and (min-width: 1270px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+       
+        left: 10%;
+
+}
+}
+@media screen and (min-width: 1350px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+         
+        left: 15%;
+
+}
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+         
+        right: 5%;
+
+}
+
+}
+@media screen and (max-width: 800px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 700px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+       top: 25%;
+        left: 2%;
+
+}
+
+}
+
+@media screen and (min-width: 1300px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        top: 25%;
+        left:23%;
+
+}
+}
+@media screen and (min-width: 1500px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        top: 25%;
+        left:25%;
+
+}
+}
+@media screen and (min-width: 1700px){
+    .container{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        
+        left: 30%;
+
+}
+}
+
+
+
+/* da para baixo vou trabalhar com a pagina Produtos */
+@media screen and (min-width: 200px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        top: 26%;
+        left: 10%;
+        
+
+}
+}
+@media screen and (min-width: 500px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 10%;
+        
+
+}
+}
+@media screen and (min-width: 510px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 510px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 0%;
+        
+
+}
+}
+@media screen and (min-width: 520px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 520px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 2%;
+        
+
+}
+}
+@media screen and (min-width: 540px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 530px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 1%;      
+
+}
+}
+@media screen and (min-width: 550px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 520px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 5%;      
+}
+}
+@media screen and (min-width: 600px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 2%;
+        
+}
+}
+@media screen and (min-width: 610px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 2%;      
+}
+}
+@media screen and (min-width: 620px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 2%;    
+}
+}
+@media screen and (min-width: 630px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 2%;       
+}
+}
+@media screen and (min-width: 640px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 2%;      
+}
+}
+@media screen and (min-width: 650px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 4%;
+        
+
+}
+}
+@media screen and (min-width: 700px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 650px;  
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+        left: 3%;
+        
+
+}
+}
+@media screen and (min-width: 800px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px; 
+        left: 0%;
+
+}
+}
+@media screen and (min-width: 850px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;
+         left: 6%;
+
+}
+}
+@media screen and (min-width: 900px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;    
+        left: 6%;
+}
+}
+@media screen and (min-width: 950px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px; 
+        left: 9%;
+}
+}
+@media screen and (min-width: 1000px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;      
+        left: 12%;
+}
+}
+@media screen and (min-width: 1100px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;        
+        left: 15%;
+}
+}
+@media screen and (min-width: 1200px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;   
+        left: 18%;
+}
+}
+@media screen and (min-width: 1300px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;       
+        left: 21%;
+}
+}
+@media screen and (min-width: 1400px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;       
+        left: 24%;
+}
+}
+@media screen and (min-width: 1500px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;      
+        left: 25%;
+}
+}
+@media screen and (min-width: 1600px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 790px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;     
+        left: 27%;
+
+}
+}
+@media screen and (min-width: 1700px){
+    .teste09{
+        text-align: center;
+        display: flex;
+        position:absolute;
+        margin: auto;
+        width: 1600px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-content: space-around;
+        border-radius: 20px;   
+        left: 10%;
+}
+}
+
